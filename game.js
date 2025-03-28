@@ -20,7 +20,7 @@ const allPoses = [
 	{name: 'floating paschi', difficulty: 35, reversible: true, canMono: true},
 	{name: 'hand to hand', difficulty: 80, reversible: true, canMono: true},
 	{name: 'extended hand to hand', difficulty: 90, reversible: true, canMono: true},
-	{name: 'hangle dangle', difficulty: 70, reversible: true, canMono: true},
+	{name: 'hangle dangle', difficulty: 70, reversible: true, canMono: false},
 	{name: 'icarian throne', difficulty: 30, reversible: true, canMono: true},
 	{name: 'straddle throne', difficulty: 0, reversible: true, canMono: true},
 	{name: 'star', difficulty: 20, reversible: true, canMono: true},
