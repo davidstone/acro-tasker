@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Acro Tasker</title>
+	<style>
+		body { font-family: sans-serif; padding: 20px; }
+		.section { margin-bottom: 20px; }
+		.pose-list { column-count: 2; }
+		#current-pose { font-size: 24px; font-weight: bold; }
+		.pose-group { margin-bottom: 10px; }
+		.modifier-list { margin-left: 20px; }
+		.toggle-btn { cursor: pointer; color: blue; text-decoration: underline; }
+	</style>
+</head>
+<body>
+	<h2>Select Poses</h2>
+
+	<div class="section">
+		<label for="preset">Difficulty:</label>
+		<select id="preset">
+			<option value="custom">Custom</option>
+			<option value="beginner" selected>Beginner</option>
+			<option value="easy">Easy</option>
+			<option value="medium">Medium</option>
+			<option value="hard">Hard</option>
+			<option value="crazy">Crazy</option>
+		</select>
+		<span id="toggle-poses" class="toggle-btn">Show poses</span>
+	</div>
+
+	<div class="section">
+		<div class="pose-list" id="pose-list"></div>
+	</div>
+
+	<div class="section">
+		<label for="transition-time">Seconds to get into pose:</label>
+		<input type="number" id="transition-time" min="1" value="15">
+	</div>
+
+	<div class="section">
+		<label for="hold-time">Seconds to hold pose:</label>
+		<input type="number" id="hold-time" min="1" value="5">
+	</div>
+
+	<div class="section">
+		<label><input type="checkbox" id="both-sides" checked>Did you do both sides?</label>
+	</div>
+
+	<div class="section">
+		<button id="start-stop">Start</button>
+	</div>
+
+	<div class="section">
+		<p>Current Pose: <span id="current-pose">-</span></p>
+	</div>
+
+	<script src="game.js"></script>
+</body>
+</html>
