@@ -1,0 +1,258 @@
+[
+	[
+		{"name": "back fly", "difficulty": 20},
+		{"name": "reverse back fly", "difficulty": 40},
+		{"name": "mono back fly", "difficulty": 70, "side": "base"},
+		{"name": "mono reverse back fly", "difficulty": 90, "side": "base"}
+	],
+	[
+		{"name": "back fly on hands", "difficulty": 40},
+		{"name": "reverse back fly on hands", "difficulty": 70},
+		{"name": "mono back fly on hands", "difficulty": 90, "side": "base"},
+		{"name": "mono reverse back fly on hands", "difficulty": 110, "side": "base"}
+	],
+	[
+		{"name": "back bed", "difficulty": 20, "side": "base"}
+	],
+	[
+		{"name": "belly bed", "difficulty": 20, "side": "base"}
+	],
+	[
+		{"name": "bicep stand", "difficulty": 65},
+		{"name": "reverse bicep stand", "difficulty": 85},
+		{"name": "mono bicep stand", "difficulty": 105, "side": "both"},
+		{"name": "funky bicep stand", "difficulty": 115, "side": "both"},
+		{"name": "mono reverse bicep stand", "difficulty": 125, "side": "both"},
+		{"name": "funky reverse bicep stand", "difficulty": 135, "side": "both"}
+	],
+	[
+		{"name": "bird", "difficulty": 0},
+		{"name": "free bird", "difficulty": 20},
+		{"name": "reverse bird", "difficulty": 25},
+		{"name": "free reverse bird", "difficulty": 30},
+		{"name": "mono bird", "difficulty": 20, "side": "base"},
+		{"name": "mono free bird", "difficulty": 90, "side": "base"},
+		{"name": "mono reverse bird", "difficulty": 70, "side": "base"},
+		{"name": "mono free reverse bird", "difficulty": 100, "side": "base"}
+	],
+	[
+		{"name": "bird on hands", "difficulty": 40},
+		{"name": "reverse bird on hands", "difficulty": 80},
+		{"name": "mono bird on hands", "difficulty": 90, "side": "base"},
+		{"name": "mono reverse bird on hands", "difficulty": 110, "side": "base"}
+	],
+	[
+		{"name": "boat", "difficulty": 40},
+		{"name": "reverse boat", "difficulty": 60},
+		{"name": "mono boat", "difficulty": 80, "side": "base"},
+		{"name": "mono reverse boat", "difficulty": 90, "side": "base"}
+	],
+	[
+		{"name": "chair", "difficulty": 0},
+		{"name": "free chair", "difficulty": 40},
+		{"name": "reverse chair", "difficulty": 60},
+		{"name": "mono chair", "difficulty": 30, "side": "base"},
+		{"name": "mono free chair", "difficulty": 70, "side": "base"},
+		{"name": "mono reverse chair", "difficulty": 90, "side": "base"}
+	],
+	[
+		{"name": "croc", "difficulty": 70, "side": "both"},
+		{"name": "reverse croc", "difficulty": 80, "side": "both"},
+		{"name": "funky croc", "difficulty": 80, "side": "both"},
+		{"name": "funky reverse croc", "difficulty": 90, "side": "both"}
+	],
+	[
+		{"name": "folded leaf", "difficulty": 0}
+	],
+	[
+		{"name": "foot to foot", "difficulty": 60},
+		{"name": "reverse foot to foot", "difficulty": 70},
+		{"name": "mono foot to foot", "difficulty": 100, "side": "both"},
+		{"name": "funky foot to foot", "difficulty": 110, "side": "both"},
+		{"name": "mono reverse foot to foot", "difficulty": 110, "side": "both"},
+		{"name": "funky reverse foot to foot", "difficulty": 120, "side": "both"}
+	],
+	[
+		{"name": "foot to hand", "difficulty": 50},
+		{"name": "extended foot to hand", "difficulty": 55},
+		{"name": "reverse foot to hand", "difficulty": 70},
+		{"name": "mono foot to hand", "difficulty": 90, "side": "both"},
+		{"name": "funky foot to hand", "difficulty": 100, "side": "both"},
+		{"name": "extended reverse foot to hand", "difficulty": 75},
+		{"name": "mono extended foot to hand", "difficulty": 95, "side": "both"},
+		{"name": "funky extended foot to hand", "difficulty": 105, "side": "both"},
+		{"name": "mono reverse foot to hand", "difficulty": 110, "side": "both"},
+		{"name": "funky reverse foot to hand", "difficulty": 120, "side": "both"},
+		{"name": "mono extended reverse foot to hand", "difficulty": 115, "side": "both"},
+		{"name": "funky extended reverse foot to hand", "difficulty": 125, "side": "both"}
+	],
+	[
+		{"name": "foot to shin", "difficulty": 40},
+		{"name": "extended foot to shin", "difficulty": 45},
+		{"name": "reverse foot to shin", "difficulty": 60},
+		{"name": "mono foot to shin", "difficulty": 80, "side": "both"},
+		{"name": "funky foot to shin", "difficulty": 90, "side": "both"},
+		{"name": "extended reverse foot to shin", "difficulty": 65},
+		{"name": "mono extended foot to shin", "difficulty": 85, "side": "both"},
+		{"name": "funky extended foot to shin", "difficulty": 95, "side": "both"},
+		{"name": "mono reverse foot to shin", "difficulty": 100, "side": "both"},
+		{"name": "funky reverse foot to shin", "difficulty": 110, "side": "both"},
+		{"name": "mono extended reverse foot to shin", "difficulty": 105, "side": "both"},
+		{"name": "funky extended reverse foot to shin", "difficulty": 115, "side": "both"}
+	],
+	[
+		{"name": "floating paschi", "phonetic": "floating pahshee", "difficulty": 35},
+		{"name": "reverse floating paschi", "phonetic": "reverse floating pahshee", "difficulty": 55},
+		{"name": "mono floating paschi", "phonetic": "mono floating pahshee", "difficulty": 110, "side": "both"},
+		{"name": "funky floating paschi", "phonetic": "funky floating pahshee", "difficulty": 120, "side": "both"},
+		{"name": "mono reverse floating paschi", "phonetic": "mono reverse floating pahshee", "difficulty": 120, "side": "both"},
+		{"name": "funky reverse floating paschi", "phonetic": "funky reverse floating pahshee", "difficulty": 130, "side": "both"}
+	],
+	[
+		{"name": "hand to hand", "difficulty": 80},
+		{"name": "extended hand to hand", "difficulty": 85},
+		{"name": "reverse hand to hand", "difficulty": 100},
+		{"name": "mono hand to hand", "difficulty": 120, "side": "both"},
+		{"name": "funky hand to hand", "difficulty": 130, "side": "both"},
+		{"name": "extended reverse hand to hand", "difficulty": 105},
+		{"name": "mono extended hand to hand", "difficulty": 125, "side": "both"},
+		{"name": "funky extended hand to hand", "difficulty": 135, "side": "both"},
+		{"name": "mono reverse hand to hand", "difficulty": 140, "side": "both"},
+		{"name": "funky reverse hand to hand", "difficulty": 150, "side": "both"},
+		{"name": "mono extended reverse hand to hand", "difficulty": 145, "side": "both"},
+		{"name": "funky extended reverse hand to hand", "difficulty": 155, "side": "both"}
+	],
+	[
+		{"name": "hangle dangle", "difficulty": 60},
+		{"name": "reverse hangle dangle", "difficulty": 80},
+		{"name": "funky hangle dangle", "difficulty": 70, "side": "both"},
+		{"name": "funky reverse hangle dangle", "difficulty": 90, "side": "both"}
+	],
+	[
+		{"name": "icarian throne", "difficulty": 30},
+		{"name": "free icarian throne", "difficulty": 60},
+		{"name": "reverse icarian throne", "difficulty": 50},
+		{"name": "mono icarian throne", "difficulty": 70, "side": "base"},
+		{"name": "funky icarian throne", "difficulty": 80, "side": "base"},
+		{"name": "mono free icarian throne", "difficulty": 100, "side": "base"},
+		{"name": "funky free icarian throne", "difficulty": 110, "side": "base"},
+		{"name": "mono reverse icarian throne", "difficulty": 90, "side": "base"},
+		{"name": "funky reverse icarian throne", "difficulty": 100, "side": "base"}
+	],
+	[
+		{"name": "straddle throne", "difficulty": 10},
+		{"name": "reverse straddle throne", "difficulty": 30},
+		{"name": "mono straddle throne", "difficulty": 50, "side": "both"},
+		{"name": "funky straddle throne", "difficulty": 60, "side": "both"},
+		{"name": "mono reverse straddle throne", "difficulty": 80, "side": "both"},
+		{"name": "funky reverse straddle throne", "difficulty": 90, "side": "both"}
+	],
+	[
+		{"name": "star", "difficulty": 20},
+		{"name": "free star", "difficulty": 75},
+		{"name": "reverse star", "difficulty": 65},
+		{"name": "mono star", "difficulty": 50, "side": "both"},
+		{"name": "funky star", "difficulty": 70, "side": "both"},
+		{"name": "free reverse star", "difficulty": 90},
+		{"name": "mono free star", "difficulty": 130, "side": "both"},
+		{"name": "funky free star", "difficulty": 140, "side": "both"},
+		{"name": "mono reverse star", "difficulty": 90, "side": "both"},
+		{"name": "funky reverse star", "difficulty": 100, "side": "both"},
+		{"name": "mono free reverse star", "difficulty": 120, "side": "both"},
+		{"name": "funky free reverse star", "difficulty": 130, "side": "both"},
+		{"name": "space needle", "difficulty": 100},
+		{"name": "reverse space needle", "difficulty": 110},
+		{"name": "mono space needle", "difficulty": 120, "side": "both"},
+		{"name": "funky space needle", "difficulty": 130, "side": "both"},
+		{"name": "mono reverse space needle", "difficulty": 140, "side": "both"},
+		{"name": "funky reverse space needle", "difficulty": 150, "side": "both"}
+	],
+	[
+		{"name": "plank", "difficulty": 35},
+		{"name": "extended plank", "difficulty": 65},
+		{"name": "reverse plank", "difficulty": 55},
+		{"name": "mono plank", "difficulty": 75, "side": "base"},
+		{"name": "funky plank", "difficulty": 85, "side": "base"},
+		{"name": "extended reverse plank", "difficulty": 85},
+		{"name": "mono extended plank", "difficulty": 105, "side": "base"},
+		{"name": "funky extended plank", "difficulty": 115, "side": "base"},
+		{"name": "mono reverse plank", "difficulty": 95, "side": "base"},
+		{"name": "funky reverse plank", "difficulty": 105, "side": "base"},
+		{"name": "mono extended reverse plank", "difficulty": 125, "side": "base"},
+		{"name": "funky extended reverse plank", "difficulty": 135, "side": "base"}
+	],
+	[
+		{"name": "shin to foot", "difficulty": 35},
+		{"name": "reverse shin to foot", "difficulty": 55},
+		{"name": "mono shin to foot", "difficulty": 75, "side": "both"},
+		{"name": "funky shin to foot", "difficulty": 85, "side": "both"},
+		{"name": "mono reverse shin to foot", "difficulty": 95, "side": "both"},
+		{"name": "funky reverse shin to foot", "difficulty": 105, "side": "both"}
+	],
+	[
+		{"name": "shin to hand", "difficulty": 60},
+		{"name": "extended shin to hand", "difficulty": 65},
+		{"name": "reverse shin to hand", "difficulty": 80},
+		{"name": "mono shin to hand", "difficulty": 100, "side": "both"},
+		{"name": "funky shin to hand", "difficulty": 110, "side": "both"},
+		{"name": "extended reverse shin to hand", "difficulty": 85},
+		{"name": "mono extended shin to hand", "difficulty": 105, "side": "both"},
+		{"name": "funky extended shin to hand", "difficulty": 115, "side": "both"},
+		{"name": "mono reverse shin to hand", "difficulty": 120, "side": "both"},
+		{"name": "funky reverse shin to hand", "difficulty": 130, "side": "both"},
+		{"name": "mono extended reverse shin to hand", "difficulty": 125, "side": "both"},
+		{"name": "funky extended reverse shin to hand", "difficulty": 135, "side": "both"}
+	],
+	[
+		{"name": "candlestick", "difficulty": 30},
+		{"name": "shoulder stand", "difficulty": 50},
+		{"name": "free shoulder stand", "difficulty": 90},
+		{"name": "reverse shoulder stand", "difficulty": 75},
+		{"name": "mono shoulder stand", "difficulty": 110, "side": "both"},
+		{"name": "funky shoulder stand", "difficulty": 120, "side": "both"},
+		{"name": "free reverse shoulder stand", "difficulty": 100},
+		{"name": "mono free shoulder stand", "difficulty": 140, "side": "both"},
+		{"name": "funky free shoulder stand", "difficulty": 150, "side": "both"},
+		{"name": "mono reverse shoulder stand", "difficulty": 120, "side": "both"},
+		{"name": "funky reverse shoulder stand", "difficulty": 130, "side": "both"},
+		{"name": "mono free reverse shoulder stand", "difficulty": 150, "side": "both"},
+		{"name": "funky free reverse shoulder stand", "difficulty": 160, "side": "both"},
+		{"name": "needle", "difficulty": 110},
+		{"name": "reverse needle", "difficulty": 120},
+		{"name": "mono needle", "difficulty": 160, "side": "both"},
+		{"name": "funky needle", "difficulty": 170, "side": "both"},
+		{"name": "mono reverse needle", "difficulty": 170, "side": "both"},
+		{"name": "funky reverse needle", "difficulty": 180, "side": "both"}
+	],
+	[
+		{"name": "inside side star", "difficulty": 30, "side": "both"},
+		{"name": "free inside side star", "difficulty": 60, "side": "both"},
+		{"name": "reverse inside side star", "difficulty": 30, "side": "both"},
+		{"name": "free reverse inside side star", "difficulty": 60, "side": "both"},
+		{"name": "outside side star", "difficulty": 40, "side": "both"},
+		{"name": "free outside side star", "difficulty": 70, "side": "both"},
+		{"name": "reverse outside side star", "difficulty": 40, "side": "both"},
+		{"name": "free reverse outside side star", "difficulty": 70, "side": "both"}
+	],
+	[
+		{"name": "straddle bat", "difficulty": 20}
+	],
+	[
+		{"name": "thinker", "difficulty": 40},
+		{"name": "reverse thinker", "difficulty": 60},
+		{"name": "funky thinker", "difficulty": 50, "side": "base"},
+		{"name": "funky reverse thinker", "difficulty": 70, "side": "base"}
+	],
+	[
+		{"name": "vishnu's couch", "difficulty": 30, "side": "both"},
+		{"name": "reverse vishnu's couch", "difficulty": 50, "side": "both"}
+	],
+	[
+		{"name": "whale", "difficulty": 0},
+		{"name": "reverse whale", "difficulty": 50},
+		{"name": "mono whale", "difficulty": 40, "side": "base"},
+		{"name": "funky whale", "difficulty": 50, "side": "base"},
+		{"name": "mono reverse whale", "difficulty": 90, "side": "base"},
+		{"name": "funky reverse whale", "difficulty": 100, "side": "base"}
+	]
+]
