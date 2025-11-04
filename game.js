@@ -196,19 +196,23 @@ function sideModifierString(nextPose) {
 	}
 }
 
+function poseWithSide(sideModifier, pose) {
+	return sideModifier ? `${sideModifier} ${pose}` : pose;
+}
+
 function displayNewPose(handleTimers) {
 	let nextPose;
 	let sideModifier;
 	let poseString;
 	do {
 		nextPose = selectedPoses[Math.floor(Math.random() * selectedPoses.length)];
-		sideModifier = bothSidesCheckbox.checked ? sideModifierString(nextPose) : none;
-		poseString = sideModifier ? `${sideModifier} ${nextPose.pose}` : nextPose.pose;
+		sideModifier = bothSidesCheckbox.checked ? sideModifierString(nextPose) : null;
+		poseString = poseWithSide(sideModifier, nextPose.pose);
 	} while (poseString === currentPoseDisplay.textContent && selectedPoses.length > 1);
 	currentPoseDisplay.textContent = poseString;
 	lastPoseTime = Date.now();
 	const spokenPose = nextPose.phonetic ?
-		`${sideModifier} ${nextPose.phonetic}` :
+		poseWithSide(sideModifier, nextPose.phonetic) :
 		poseString;
 	speak(spokenPose, handleTimers);
 }
