@@ -48,6 +48,9 @@
 		{"name": "mono reverse boat", "difficulty": 90, "side": "base"}
 	],
 	[
+		{"name": "candlestick", "difficulty": 30}
+	],
+	[
 		{"name": "chair", "difficulty": 0},
 		{"name": "free chair", "difficulty": 40},
 		{"name": "reverse chair", "difficulty": 60},
@@ -204,7 +207,7 @@
 		{"name": "goofy extended reverse shin to hand", "difficulty": 135, "side": "both"}
 	],
 	[
-		{"name": "candlestick", "difficulty": 30},
+		{"name": "shoulder stand holding ankles", "difficulty": 40},
 		{"name": "shoulder stand", "difficulty": 50},
 		{"name": "free shoulder stand", "difficulty": 90},
 		{"name": "reverse shoulder stand", "difficulty": 75},
