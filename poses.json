@@ -150,7 +150,7 @@
 	[
 		{"name": "star", "difficulty": 20},
 		{"name": "free star", "difficulty": 75},
-		{"name": "reverse star", "difficulty": 65},
+		{"name": "reverse star", "difficulty": 60},
 		{"name": "mono star", "difficulty": 50, "side": "both"},
 		{"name": "goofy star", "difficulty": 70, "side": "both"},
 		{"name": "free reverse star", "difficulty": 90},
