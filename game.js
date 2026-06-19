@@ -3,6 +3,7 @@ const countdownDuration = 5;
 let allPoses = [];
 let selectedPoses = [];
 let intervalId = null;
+let difficultyMap = {};
 
 const poseListContainer = document.getElementById('pose-list');
 const presetSelect = document.getElementById('preset');
@@ -16,6 +17,7 @@ const togglePosesBtn = document.getElementById('toggle-poses');
 async function loadPoses() {
 	const response = await fetch('poses.json');
 	allPoses = await response.json();
+	const difficultyMap = Object.fromEntries(allPoses.flat().map(p => [p.name, p.difficulty]));
 	generatePoseCheckboxes();
 	presetSelect.addEventListener('change', applyPreset);
 	applyPreset();
@@ -105,9 +107,6 @@ function applyPreset() {
 
 function selectPosesByDifficulty(min, max) {
 	const checkboxes = document.querySelectorAll('.pose');
-	const difficultyMap = Object.fromEntries(
-		allPoses.flat().map(pose => [pose.name, pose.difficulty])
-	);
 	checkboxes.forEach(cb => {
 		const difficulty = difficultyMap[cb.dataset.pose];
 		cb.checked = min <= difficulty && difficulty <= max;
