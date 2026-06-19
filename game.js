@@ -2,7 +2,6 @@ const countdownDuration = 5;
 
 let allPoses = [];
 let selectedPoses = [];
-let lastPoseTime = Date.now();
 let intervalId = null;
 
 const poseListContainer = document.getElementById('pose-list');
@@ -210,7 +209,6 @@ function displayNewPose(handleTimers) {
 		poseString = poseWithSide(sideModifier, nextPose.pose);
 	} while (poseString === currentPoseDisplay.textContent && selectedPoses.length > 1);
 	currentPoseDisplay.textContent = poseString;
-	lastPoseTime = Date.now();
 	const spokenPose = nextPose.phonetic ?
 		poseWithSide(sideModifier, nextPose.phonetic) :
 		poseString;
