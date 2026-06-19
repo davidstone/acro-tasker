@@ -16,10 +16,6 @@ const togglePosesBtn = document.getElementById('toggle-poses');
 async function loadPoses() {
 	const response = await fetch('poses.json');
 	allPoses = await response.json();
-	initGame();
-}
-
-function initGame() {
 	generatePoseCheckboxes();
 	presetSelect.addEventListener('change', applyPreset);
 	applyPreset();
