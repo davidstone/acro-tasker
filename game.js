@@ -17,7 +17,7 @@ const togglePosesBtn = document.getElementById('toggle-poses');
 async function loadPoses() {
 	const response = await fetch('poses.json');
 	allPoses = await response.json();
-	const difficultyMap = Object.fromEntries(allPoses.flat().map(p => [p.name, p.difficulty]));
+	difficultyMap = Object.fromEntries(allPoses.flat().map(p => [p.name, p.difficulty]));
 	generatePoseCheckboxes();
 	presetSelect.addEventListener('change', applyPreset);
 	applyPreset();
