@@ -207,8 +207,8 @@
 		{"name": "goofy extended reverse shin to hand", "difficulty": 135, "side": "both"}
 	],
 	[
-		{"name": "shoulder stand holding ankles", "difficulty": 40},
 		{"name": "shoulder stand", "difficulty": 50},
+		{"name": "shoulder stand holding ankles", "difficulty": 40},
 		{"name": "free shoulder stand", "difficulty": 90},
 		{"name": "reverse shoulder stand", "difficulty": 75},
 		{"name": "mono shoulder stand", "difficulty": 110, "side": "both"},
