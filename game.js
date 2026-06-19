@@ -121,7 +121,7 @@ function selectPosesByDifficulty(min, max) {
 const difficultyPresets = {
 	beginner: { minDifficulty: 0, maxDifficulty: 10, transition: 60, hold: 10 },
 	easy: { minDifficulty: 0, maxDifficulty: 30, transition: 40, hold: 5 },
-	medium: { minDifficulty: 0, maxDifficulty: 60, transition: 30, hold: 5 },
+	medium: { minDifficulty: 0, maxDifficulty: 60, transition: 20, hold: 5 },
 	hard: { minDifficulty: 30, maxDifficulty: 80, transition: 20, hold: 10 },
 	crazy: { minDifficulty: 40, maxDifficulty: Infinity, transition: 15, hold: 15 }
 };
