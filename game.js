@@ -141,7 +141,7 @@ function stop() {
 
 function tryStart() {
 	if (selectedPoses.length > 0) {
-		startRound();
+		startRound(0.5);
 		startStopBtn.textContent = 'Stop';
 	} else {
 		alert('Please select a difficulty or expand poses to choose manually!');
@@ -156,9 +156,9 @@ startStopBtn.addEventListener('click', () => {
 	}
 });
 
-function startRound() {
+function startRound(timeMultiplier) {
 	displayNewPose(() => {
-		const secondsToGetIntoPose = Number(transitionTime.value);
+		const secondsToGetIntoPose = Number(transitionTime.value) * timeMultiplier;
 		const expectedTimeOfHold = Date.now() + secondsToGetIntoPose * 1000;
 		function nextMessage() {
 			const millisecondsUntilHold = expectedTimeOfHold - Date.now();
@@ -166,7 +166,7 @@ function startRound() {
 			if (secondsUntilHold <= 0) {
 				speak('Hold');
 				intervalId = setTimeout(() => {
-					startRound();
+					startRound(1);
 				}, Number(holdTime.value) * 1000);
 			} else {
 				speak(secondsUntilHold);
